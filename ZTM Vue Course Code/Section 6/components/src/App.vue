@@ -1,16 +1,24 @@
 <template>
-  <p>{{msg}} </p>
+  <h3>Hey!</h3>
+  <greeting></greeting>
+  <user :age="age"></user>
 </template>
 
 <script>
+import Greeting from "@/components/Greeting.vue"
+import User from "@/components/User.vue"
+
 export default{
   name: 'App', 
-
-  data(){
-    return{
-      msg: "Hello World!"
+  components: {
+    Greeting,
+    User
+  },
+  data() {
+    return {
+      age: 20
     }
-  }
+  },
 }
 </script>
 
