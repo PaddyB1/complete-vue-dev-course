@@ -5,7 +5,11 @@
     "songs": "Songs"
   },
   "song": {
-    "comment_count": "No comments | 1 comment | {count} comments"
+    "comment_count": "No comments | 1 comment | {count} comments",
+    "comment_placeholder": "Your comment here...",
+    "submit": "Submit",
+    "latest": "Latest",
+    "oldest": "Oldest"
   },
   "register": {
     "accept": "I accept Music's {0}",
@@ -16,5 +20,56 @@
     "manage": "Manage",
     "logOut": "Log Out",
     "login": "Login / Register"
+  },
+  "manage": {
+    "songs": "My Songs"
+  },
+  "composition": {
+    "song_title": "Song Title",
+    "song_placeholder": "Enter Song",
+    "genre": "Genre",
+    "genre_placeholder": "Enter Genre",
+    "submit": "Submit",
+    "return": "Go Back"
+  },
+  "upload": {
+    "upload": "Upload",
+    "drop_box": "Drop your files here",
+    "choose_file": "Choose Files"
+  },
+  "auth": {
+    "label": "Your Account",
+    "login": "Login",
+    "register": "Register"
+  },
+  "login": {
+    "email": "Email",
+    "email_placeholder": "Enter Email",
+    "password": "Password",
+    "password_placeholder": "Enter Password",
+    "submit": "Submit"
+  },
+  "register_form": {
+    "name": "Name",
+    "name_placeholder": "Enter Name",
+    "email": "Email",
+    "email_placeholder": "Enter Email",
+    "age": "Age",
+    "password": "Password",
+    "password_placeholder": "Enter Password",
+    "cpassword": "Confirm Password",
+    "country": "Country",
+    "genre": "Favourite Genre",
+    "genre_placeholder": "Enter Favourite Genre",
+    "submit": "Submit"
+  },
+  "country": {
+    "ata": "Antarctica (Invalid)",
+    "bra": "Brazil",
+    "deu": "Germany",
+    "mex": "Mexico",
+    "nzl": "New Zealand",
+    "esp": "Spain",
+    "usa": "United States of America"
   }
 }

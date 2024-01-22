@@ -64,7 +64,9 @@ export default {
   },
   methods: {
     toggleAuthModal() {
-      this.modalStore.isOpen = !this.modalStore.isOpen
+      this.$nextTick(() => {
+        this.modalStore.isOpen = !this.modalStore.isOpen
+      })
     },
     signOut() {
       this.userStore.signOut()

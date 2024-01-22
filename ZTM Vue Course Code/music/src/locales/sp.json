@@ -1,11 +1,15 @@
 {
   "home": {
     "listen": "¡Escucha buena música!",
-    "intro": "Bienvenido a la Music de Paddy Borthwick. Este sitio web fue creado junto con el \"Complete Vue Developer Bootcamp\" de ZTM Academy. No está diseñado para un uso de gran volumen y sirve más bien como prueba de concepto.",
+    "intro": "Bienvenido a Music by Paddy Borthwick. Este sitio web fue creado junto con el \"Complete Vue Developer Bootcamp\" de ZTM Academy. No está diseñado para un uso de gran volumen y sirve más bien como prueba de concepto.",
     "songs": "Canciones"
   },
   "song": {
-    "comment_count": "Sin comentarios | 1 comentario | {count} comentarios"
+    "comment_count": "Sin comentarios | 1 comentario | {count} comentarios",
+    "comment_placeholder": "Tu comentario aquí...",
+    "submit": "Enviar",
+    "latest": "Última",
+    "oldest": "Más antiguo"
   },
   "register": {
     "accept": "Acepto Music's {0}",
@@ -16,5 +20,56 @@
     "manage": "Administrar",
     "logOut": "Cerrar sesión",
     "login": "Acceso / Registro"
+  },
+  "manage": {
+    "songs": "Mis canciones"
+  },
+  "composition": {
+    "song_title": "Título de la canción",
+    "song_placeholder": "Introducir canción",
+    "genre": "Género",
+    "genre_placeholder": "Introducir género",
+    "submit": "Enviar",
+    "return": "Volver atrás"
+  },
+  "upload": {
+    "upload": "Cargar",
+    "drop_box": "Envíe sus archivos aquí",
+    "choose_file": "Elegir archivos"
+  },
+  "auth": {
+    "label": "Su cuenta",
+    "login": "Acceso",
+    "register": "Registro"
+  },
+  "login": {
+    "email": "Correo electrónico",
+    "email_placeholder": "Introducir correo electrónico",
+    "password": "Contraseña",
+    "password_placeholder": "Introducir contraseña",
+    "submit": "Enviar "
+  },
+  "register_form": {
+    "name": "Nombre",
+    "name_placeholder": "Introduzca el nombre",
+    "email": "Correo electrónico",
+    "email_placeholder": "Introducir correo electrónico",
+    "age": "Edad",
+    "password": "Contraseña",
+    "password_placeholder": "Introducir contraseña",
+    "cpassword": "Confirmar contraseña",
+    "country": "País",
+    "genre": "Género favorito",
+    "genre_placeholder": "Introduzca su género favorito",
+    "submit": "Submit"
+  },
+  "country": {
+    "ata": "Antártida (no válido)",
+    "bra": "Brasil",
+    "deu": "Alemania",
+    "mex": "México",
+    "nzl": "Nueva Zelanda",
+    "esp": "España",
+    "usa": "Estados Unidos"
   }
 }
