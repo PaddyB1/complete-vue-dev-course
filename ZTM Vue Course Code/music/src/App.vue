@@ -45,6 +45,9 @@ export default {
 .fade-enter-active {
   transition: all 0.5s linear;
 }
+.fade-enter-end {
+  opacity: 1;
+}
 
 .fade-leave-to {
   transition: all 0.5s linear;

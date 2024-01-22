@@ -1,0 +1,20 @@
+{
+  "home": {
+    "listen": "¡Escucha buena música!",
+    "intro": "Bienvenido a la Music de Paddy Borthwick. Este sitio web fue creado junto con el \"Complete Vue Developer Bootcamp\" de ZTM Academy. No está diseñado para un uso de gran volumen y sirve más bien como prueba de concepto.",
+    "songs": "Canciones"
+  },
+  "song": {
+    "comment_count": "Sin comentarios | 1 comentario | {count} comentarios"
+  },
+  "register": {
+    "accept": "Acepto Music's {0}",
+    "tos": "Términos de servicio"
+  },
+  "header": {
+    "about": "Acerca de",
+    "manage": "Administrar",
+    "logOut": "Cerrar sesión",
+    "login": "Acceso / Registro"
+  }
+}

@@ -19,17 +19,16 @@ const routes = [
   },
   {
     path: '/manage-music',
-    // alias: '/manage',
     component: ManageView,
     name: 'manage',
     meta: {
       requiresAuth: true
     }
   },
-  {
-    path: '/manage',
-    redirect: { name: 'manage' }
-  },
+  // {
+  //   path: '/manage',
+  //   redirect: { name: 'manage' }
+  // },
   {
     name: 'song',
     path: '/song/:id',
