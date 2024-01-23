@@ -102,7 +102,7 @@ export default {
     handleScroll() {
       const { scrollTop, offsetHeight } = document.documentElement
       const { innerHeight } = window
-      const bottomOfWindow = Math.round(scrollTop) + innerHeight > offsetHeight - 100
+      const bottomOfWindow = Math.round(scrollTop) + innerHeight === offsetHeight
 
       if (bottomOfWindow) {
         this.getSongs()
